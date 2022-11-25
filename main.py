@@ -8,5 +8,5 @@ LENGTH = input("Password Length: ")
 
 COMBINED = UPPER_CASE + LOWER_CASE + SYMBOLS + NUMBERS 
 
-OUTPUT = "".join(random.sample(COMBINED, LENGTH))
+OUTPUT = "".join(random.sample(COMBINED, int(LENGTH)))
 print(OUTPUT)
